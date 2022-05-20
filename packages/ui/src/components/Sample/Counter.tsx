@@ -48,7 +48,7 @@ const Counter = () => {
 				// }
 				onClick={() => dispatch(increaseRandomNumber({ min: 0, max: 10 }))}
 			>
-				increase randomly with thunk
+				increase randomly with thunk (less than 20)
 			</button>
 		</div>
 	);

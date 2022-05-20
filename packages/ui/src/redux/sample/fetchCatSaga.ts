@@ -11,21 +11,24 @@ import {
 import { fetchCatImages } from '../../apis/sample/fetchCatImages';
 import { fetchRequested, fetchFailed, fetchSucceed, catType } from './catSlice';
 
-function* fetchCat(
+export function* fetchCat(
 	action: PayloadAction<number>
 ): Generator<
 	CallEffect<catType[] | Error> | PutEffect<AnyAction>,
 	void,
 	catType[]
 > {
-	const response = yield call(fetchCatImages, action.payload);
-	typeof response === typeof Error
-		? yield put(fetchFailed())
-		: yield put(fetchSucceed(response));
+	try {
+		const response = yield call(fetchCatImages, action.payload);
+		yield put(fetchSucceed(response));
+	} catch (e) {
+		console.log(e);
+		yield put(fetchFailed());
+	}
 }
 
 function* fetchCatSaga() {
-	yield takeLatest(fetchRequested().type, fetchCat);
+	yield takeLatest(fetchRequested(0).type, fetchCat);
 }
 
 export default fetchCatSaga;

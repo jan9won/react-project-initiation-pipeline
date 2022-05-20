@@ -11,7 +11,8 @@ const fetchCatImages = async (catCount: number): Promise<catType[] | Error> => {
 		id: cat.id,
 		url: cat.url
 	}));
-	console.log(json, response.status);
+	// console.log(response.status);
+	// console.log(json);
 	return response.status === 200 ? cats : new Error(response.status.toString());
 };
 

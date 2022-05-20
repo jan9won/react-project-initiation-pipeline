@@ -24,7 +24,7 @@ Object {
           reset (wait 2 sec with middleware)
         </button>
         <button>
-          increase randomly with thunk
+          increase randomly with thunk (less than 20)
         </button>
       </div>
     </div>
@@ -49,7 +49,7 @@ Object {
         reset (wait 2 sec with middleware)
       </button>
       <button>
-        increase randomly with thunk
+        increase randomly with thunk (less than 20)
       </button>
     </div>
   </div>,

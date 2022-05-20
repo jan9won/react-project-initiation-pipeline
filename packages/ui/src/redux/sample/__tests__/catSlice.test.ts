@@ -12,14 +12,17 @@ describe('catSlice', () => {
 			cats: [],
 			fetchStatus: 'idle',
 			limit: 10,
-			page: 0
+			page: 0,
+			successCount: 0
 		});
 	});
-	const state_2 = catReducer(state_1, fetchRequested());
+
+	const state_2 = catReducer(state_1, fetchRequested(10));
 
 	it('fetchRequested() requests 10 cat images', () => {
 		expect(state_2.fetchStatus).toStrictEqual('fetching');
 	});
+
 	const state_3 = catReducer(
 		state_2,
 		fetchSucceed([
@@ -44,9 +47,11 @@ describe('catSlice', () => {
 			],
 			fetchStatus: 'succeed',
 			limit: 10,
-			page: 0
+			page: 0,
+			successCount: 1
 		});
 	});
+
 	const state_4 = catReducer(state_3, fetchFailed());
 
 	it('fetchFailed() sets fetchStatus', () => {
@@ -61,7 +66,8 @@ describe('catSlice', () => {
 			],
 			fetchStatus: 'errored',
 			limit: 10,
-			page: 0
+			page: 0,
+			successCount: 1
 		});
 	});
 });
