@@ -1,22 +1,21 @@
 {
 	"packageManager": "yarn@3.2.0",
-	"homepage": "https://github.com/jan9won/notion-page-tree/#readme",
-	"description": "Recursively fetch nested Notion pages from the root page/database/block node.",
+	"homepage": "https://github.com/jan9won/react-project-initiation-pipeline/#readme",
+	"description": "Learn frontend ecosystem by building a sample project from initiation to deployment.",
 	"author": {
 		"name": "Jangwon Suh",
 		"email": "jan9won@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jan9won/notion-page-tree.git",
-		"directory": "packages/notion-page-tree"
+		"url": "https://github.com/jan9won/react-project-initiation-pipeline.git",
+		"directory": "packages/react-project-initiation-pipeline"
 	},
 	"engines": {
 		"node": ">=12"
 	},
 	"workspaces": [
-		"packages/notion-page-tree",
-		"packages/ui"
+		"packages/*"
 	],
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "latest",

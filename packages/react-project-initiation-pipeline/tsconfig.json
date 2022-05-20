@@ -1,0 +1,10 @@
+{
+	"include": ["./src/**/*.ts", "custom.d.ts"],
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"noEmitOnError": true,
+		"jsx": "preserve",
+		"typeRoots": ["index.d.ts"]
+	}
+}

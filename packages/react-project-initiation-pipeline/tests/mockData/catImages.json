@@ -1,0 +1,152 @@
+[
+	{
+		"breeds": [],
+		"id": "688",
+		"url": "https://cdn2.thecatapi.com/images/688.jpg",
+		"width": 1024,
+		"height": 768
+	},
+	{
+		"breeds": [],
+		"id": "b8c",
+		"url": "https://cdn2.thecatapi.com/images/b8c.jpg",
+		"width": 480,
+		"height": 360
+	},
+	{
+		"breeds": [],
+		"id": "bn6",
+		"url": "https://cdn2.thecatapi.com/images/bn6.jpg",
+		"width": 790,
+		"height": 590
+	},
+	{
+		"breeds": [],
+		"id": "e66",
+		"url": "https://cdn2.thecatapi.com/images/e66.jpg",
+		"width": 1935,
+		"height": 2591
+	},
+	{
+		"breeds": [
+			{
+				"weight": { "imperial": "7 - 14", "metric": "3 - 6" },
+				"id": "esho",
+				"name": "Exotic Shorthair",
+				"cfa_url": "http://cfa.org/Breeds/BreedsCJ/Exotic.aspx",
+				"vetstreet_url": "http://www.vetstreet.com/cats/exotic-shorthair",
+				"vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/exotic-shorthair",
+				"temperament": "Affectionate, Sweet, Loyal, Quiet, Peaceful",
+				"origin": "United States",
+				"country_codes": "US",
+				"country_code": "US",
+				"description": "The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.",
+				"life_span": "12 - 15",
+				"indoor": 0,
+				"lap": 1,
+				"alt_names": "Exotic",
+				"adaptability": 5,
+				"affection_level": 5,
+				"child_friendly": 3,
+				"dog_friendly": 3,
+				"energy_level": 3,
+				"grooming": 2,
+				"health_issues": 3,
+				"intelligence": 3,
+				"shedding_level": 2,
+				"social_needs": 4,
+				"stranger_friendly": 2,
+				"vocalisation": 1,
+				"experimental": 0,
+				"hairless": 0,
+				"natural": 0,
+				"rare": 0,
+				"rex": 0,
+				"suppressed_tail": 0,
+				"short_legs": 0,
+				"wikipedia_url": "https://en.wikipedia.org/wiki/Exotic_Shorthair",
+				"hypoallergenic": 0,
+				"reference_image_id": "YnPrYEmfe"
+			}
+		],
+		"id": "u3V0SSE-F",
+		"url": "https://cdn2.thecatapi.com/images/u3V0SSE-F.jpg",
+		"width": 1188,
+		"height": 792
+	},
+	{
+		"breeds": [
+			{
+				"weight": { "imperial": "7 - 13", "metric": "3 - 6" },
+				"id": "manx",
+				"name": "Manx",
+				"cfa_url": "http://cfa.org/Breeds/BreedsKthruR/Manx.aspx",
+				"vetstreet_url": "http://www.vetstreet.com/cats/manx",
+				"vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/manx",
+				"temperament": "Easy Going, Intelligent, Loyal, Playful, Social",
+				"origin": "Isle of Man",
+				"country_codes": "IM",
+				"country_code": "IM",
+				"description": "The Manx is a placid, sweet cat that is gentle and playful. She never seems to get too upset about anything. She is a loving companion and adores being with people.",
+				"life_span": "12 - 14",
+				"indoor": 0,
+				"lap": 1,
+				"alt_names": "Manks, Stubbin, Rumpy",
+				"adaptability": 5,
+				"affection_level": 5,
+				"child_friendly": 4,
+				"dog_friendly": 5,
+				"energy_level": 5,
+				"grooming": 1,
+				"health_issues": 3,
+				"intelligence": 5,
+				"shedding_level": 5,
+				"social_needs": 5,
+				"stranger_friendly": 3,
+				"vocalisation": 3,
+				"experimental": 0,
+				"hairless": 0,
+				"natural": 1,
+				"rare": 0,
+				"rex": 0,
+				"suppressed_tail": 1,
+				"short_legs": 0,
+				"wikipedia_url": "https://en.wikipedia.org/wiki/Manx_(cat)",
+				"hypoallergenic": 0,
+				"reference_image_id": "fhYh2PDcC"
+			}
+		],
+		"id": "fhYh2PDcC",
+		"url": "https://cdn2.thecatapi.com/images/fhYh2PDcC.jpg",
+		"width": 700,
+		"height": 466
+	},
+	{
+		"breeds": [],
+		"id": "7xIgEgDgS",
+		"url": "https://cdn2.thecatapi.com/images/7xIgEgDgS.jpg",
+		"width": 1265,
+		"height": 951
+	},
+	{
+		"breeds": [],
+		"id": "H686U4k_2",
+		"url": "https://cdn2.thecatapi.com/images/H686U4k_2.jpg",
+		"width": 800,
+		"height": 600
+	},
+	{
+		"breeds": [],
+		"id": "7vtYbO_S0",
+		"url": "https://cdn2.thecatapi.com/images/7vtYbO_S0.jpg",
+		"width": 613,
+		"height": 640
+	},
+	{
+		"breeds": [],
+		"id": "7prjCIyRw",
+		"url": "https://cdn2.thecatapi.com/images/7prjCIyRw.jpg",
+		"width": 480,
+		"height": 368
+	}
+]
